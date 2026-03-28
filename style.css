@@ -143,6 +143,18 @@ header {
   padding: 5px 10px;
   border-radius: 8px;
 }
+.wa-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  font-size: 24px;
+  padding: 12px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
 .Navbar ul a {
   font-family: var(--font-mono);
