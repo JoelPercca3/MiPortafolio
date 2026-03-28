@@ -6,3 +6,6 @@ const observer = new IntersectionObserver(
   { threshold: 0.15 },
 );
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+const toggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".Navbar ul");
+toggle.addEventListener("click", () => menu.classList.toggle("open"));
