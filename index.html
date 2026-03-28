@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 🔥 NAVBAR -->
+    <header>
+      <nav class="Navbar">
+        <h1 class="logo">MiPortafolio</h1>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 🚀 HERO -->
+    <section id="inicio" class="hero">
+      <h2>Hola, soy Joel</h2>
+      <p>Desarrollador Web en formación</p>
+      <a href="#proyectos" class="btn">Ver proyectos</a>
+      <img class="image" src="images.jpg" alt="mi imagen" />
+    </section>
+
+    <!-- 👤 SOBRE MÍ -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy estudiante de ingeniería de software y desarrollador web. Me gusta
+        crear páginas modernas y funcionales.
+      </p>
+    </section>
+    <!-- 🧠 SKILLS -->
+    <section id="skills">
+      <h2>Mis Skills</h2>
+
+      <div class="skills-container">
+        <!-- Frontend -->
+        <div class="skills-category">
+          <h3>Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+            <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+            <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill"><i class="fab fa-react"></i> React</div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skills-category">
+          <h3>Backend</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+          </div>
+        </div>
+
+        <!-- Base de Datos -->
+        <div class="skills-category">
+          <h3>Base de Datos</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fas fa-database"></i> MySQL</div>
+            <div class="skill"><i class="fas fa-database"></i> MongoDB</div>
+            <div class="skill"><i class="fas fa-database"></i> PostgreSQL</div>
+          </div>
+        </div>
+
+        <!-- UI -->
+        <div class="skills-category">
+          <h3>UI / Frameworks</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fas fa-wind"></i> Tailwind</div>
+            <div class="skill"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 💼 PROYECTOS -->
+    <section id="proyectos">
+      <h2>Mis Proyectos</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="img-wrapper">
+            <img src="img/fullStack.png" alt="Ecommerce" />
+          </div>
+          <div class="card-body">
+            <h3>Ecommerce</h3>
+            <p>Tienda online con React, Node.js y MySql</p>
+            <a href="https://new-ecommerce-frontend-neon.vercel.app/"
+              >Ver proyecto</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="img-wrapper">
+            <img src="img/ropa.png" alt="Landing ropa" />
+          </div>
+          <div class="card-body">
+            <h3>Landing Page</h3>
+            <p>Catálogo de ropa y moda</p>
+            <a href="https://tienda-noorse.vercel.app/">Ver proyecto</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="img-wrapper">
+            <img src="img/clima.png" alt="App clima" />
+          </div>
+          <div class="card-body">
+            <h3>App Climatológico</h3>
+            <p>Página moderna responsive</p>
+            <a href="https://proyec-final.vercel.app/">Ver proyecto</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="img-wrapper">
+            <img src="img/nasa.png" alt="Nasa" />
+          </div>
+          <div class="card-body">
+            <h3>Landing Page</h3>
+            <p>Muestra de sistemas de la NASA</p>
+            <a href="https://practica-calificada3.vercel.app/">Ver proyecto</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="img-wrapper">
+            <img src="img/nasa.png" alt="Nasa" />
+          </div>
+          <div class="card-body">
+            <h3>Landing Page</h3>
+            <p>Muestra de sistemas de la NASA</p>
+            <a href="https://practica-calificada3.vercel.app/">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="img-wrapper">
+            <img src="img/ecommerce.png" alt="Nasa" />
+          </div>
+          <div class="card-body">
+            <h3>Landing Page</h3>
+            <p>Sitio web Catalogo de comida</p>
+            <a href="https://chifakai.vercel.app/">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 📞 CONTACTO -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+
+      <p>¿Tienes un proyecto en mente? Escríbeme y te respondo rápido 🚀</p>
+
+      <form action="https://formspree.io/f/mgopawrr" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+
+        <input type="email" name="email" placeholder="Tu correo" required />
+
+        <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+
+        <!-- extras pro -->
+        <input
+          type="hidden"
+          name="_subject"
+          value="Nuevo mensaje desde mi portafolio"
+        />
+        <input type="hidden" name="_captcha" value="false" />
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <!-- WhatsApp extra -->
+      <a
+        href="https://wa.me/51944174400?text=Hola%20Joel%20vi%20tu%20portafolio%20y%20quiero%20información"
+        target="_blank"
+        class="btn"
+      >
+        Escríbeme por WhatsApp
+      </a>
+    </section>
+
+    <!-- 🔻 FOOTER -->
+    <footer>
+      <p>© 2026 — Joel Percca</p>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="main.js"></script>
+  </body>
+</html>
