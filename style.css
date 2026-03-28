@@ -129,6 +129,20 @@ header {
   display: flex;
   gap: 2rem;
 }
+.stats {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.stats span {
+  background: #111;
+  border: 1px solid #e11d1d;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
 
 .Navbar ul a {
   font-family: var(--font-mono);
