@@ -820,3 +820,90 @@ footer {
     padding: 1rem 1.2rem 1.4rem;
   }
 }
+.skill i {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+/* Colores por tecnología */
+.html {
+  color: #e34f26;
+}
+.css {
+  color: #1572b6;
+}
+.js {
+  color: #f7df1e;
+}
+.react {
+  color: #61dafb;
+}
+
+.node {
+  color: #339933;
+}
+
+.mysql {
+  color: #00758f;
+}
+.mongo {
+  color: #47a248;
+}
+.postgres {
+  color: #336791;
+}
+
+.tailwind {
+  color: #38bdf8;
+}
+.bootstrap {
+  color: #7952b3;
+}
+.skill {
+  background: #111;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.footer {
+  background: #111116;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+/* Colores por red */
+.social-links a:nth-child(1) {
+  color: #0a66c2;
+} /* LinkedIn */
+.social-links a:nth-child(2) {
+  color: #1877f2;
+} /* Facebook */
+.social-links a:nth-child(3) {
+  color: #e4405f;
+} /* Instagram */
+
+/* Hover efecto PRO */
+.social-links a:hover {
+  transform: translateY(-5px) scale(1.2);
+  filter: brightness(1.2);
+}
+.footer {
+  border-top: 1px solid #222;
+}

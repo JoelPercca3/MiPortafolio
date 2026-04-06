@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Portafolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -32,15 +36,9 @@
     <section id="inicio" class="hero">
       <h2>Hola, soy Joel</h2>
       <p>
-        Creo páginas web modernas que ayudan a negocios a conseguir más clientes
-        🚀
+        Ayudo a negocios a conseguir más clientes con páginas web rápidas,
+        modernas y enfocadas en ventas 🚀
       </p>
-
-      <!-- 💎 prueba social -->
-      <div class="stats">
-        <span>+3 proyectos realizados</span>
-        <span>Clientes satisfechos</span>
-      </div>
 
       <a href="#proyectos" class="btn">Ver proyectos</a>
       <img class="image" src="perfil.jpg" alt="mi imagen" />
@@ -50,23 +48,23 @@
     <section id="sobre-mi">
       <h2>Sobre mí</h2>
       <p>
-        Soy estudiante de ingeniería de software y desarrollador web. Me gusta
-        crear páginas modernas y funcionales.
+        Soy Joel, desarrollador web enfocado en ayudar a negocios a crecer en
+        internet. Creo páginas modernas, rápidas y optimizadas para convertir
+        visitantes en clientes.
       </p>
     </section>
-    <!-- 🧠 SKILLS -->
     <section id="skills">
-      <h2>Mis Skills</h2>
+      <h2>Mis Habilidades</h2>
 
       <div class="skills-container">
         <!-- Frontend -->
         <div class="skills-category">
           <h3>Frontend</h3>
           <div class="skills-grid">
-            <div class="skill"><i class="fab fa-html5"></i> HTML</div>
-            <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
-            <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
-            <div class="skill"><i class="fab fa-react"></i> React</div>
+            <div class="skill"><i class="fab fa-html5 html"></i> HTML</div>
+            <div class="skill"><i class="fab fa-css3-alt css"></i> CSS</div>
+            <div class="skill"><i class="fab fa-js js"></i> JavaScript</div>
+            <div class="skill"><i class="fab fa-react react"></i> React</div>
           </div>
         </div>
 
@@ -74,7 +72,7 @@
         <div class="skills-category">
           <h3>Backend</h3>
           <div class="skills-grid">
-            <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+            <div class="skill"><i class="fab fa-node-js node"></i> Node.js</div>
           </div>
         </div>
 
@@ -82,9 +80,13 @@
         <div class="skills-category">
           <h3>Base de Datos</h3>
           <div class="skills-grid">
-            <div class="skill"><i class="fas fa-database"></i> MySQL</div>
-            <div class="skill"><i class="fas fa-database"></i> MongoDB</div>
-            <div class="skill"><i class="fas fa-database"></i> PostgreSQL</div>
+            <div class="skill"><i class="fas fa-database mysql"></i> MySQL</div>
+            <div class="skill">
+              <i class="fas fa-database mongo"></i> MongoDB
+            </div>
+            <div class="skill">
+              <i class="fas fa-database postgres"></i> PostgreSQL
+            </div>
           </div>
         </div>
 
@@ -92,13 +94,16 @@
         <div class="skills-category">
           <h3>UI / Frameworks</h3>
           <div class="skills-grid">
-            <div class="skill"><i class="fas fa-wind"></i> Tailwind</div>
-            <div class="skill"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+            <div class="skill">
+              <i class="fas fa-wind tailwind"></i> Tailwind
+            </div>
+            <div class="skill">
+              <i class="fab fa-bootstrap bootstrap"></i> Bootstrap
+            </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- 💼 PROYECTOS -->
     <section id="proyectos">
       <h2>Mis Proyectos</h2>
@@ -216,8 +221,26 @@
       💬
     </a>
     <!-- 🔻 FOOTER -->
-    <footer>
-      <p>© 2026 — Joel Percca</p>
+    <footer class="footer">
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/joel-percca-cuadros-2b58512a3"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a
+          href="https://www.facebook.com/profile.php?id=61584969725268"
+          target="_blank"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/perccajoel/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </footer>
 
     <!-- Scroll reveal -->
